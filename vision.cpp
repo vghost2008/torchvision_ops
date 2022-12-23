@@ -11,12 +11,6 @@
 
 // If we are in a Windows environment, we need to define
 // initialization functions for the _custom_ops extension
-#ifdef _WIN32
-PyMODINIT_FUNC PyInit__C(void) {
-  // No need to do anything.
-  return NULL;
-}
-#endif
 
 namespace vision {
 int64_t cuda_version() {

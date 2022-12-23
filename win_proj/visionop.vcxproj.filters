@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\vision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\deform_conv2d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\interpolate_aa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\nms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\ps_roi_align.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\ps_roi_pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\roi_align.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\roi_pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\vision.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\ops\deform_conv2d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\ops\interpolate_aa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\ops\nms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\ops\ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\ops\ps_roi_align.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\ops\ps_roi_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\ops\roi_align.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\ops\roi_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\10641617\workspace\torchvision_ops\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\10641617\workspace\torchvision_ops\.git" />
+    <None Include="C:\Users\10641617\workspace\torchvision_ops\.gitignore" />
+    <None Include="C:\Users\10641617\workspace\torchvision_ops\README.md" />
+    <None Include="C:\Users\10641617\workspace\torchvision_ops\version.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D837F55E-BF30-3383-8B77-B64164325EAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{37D37120-5525-3441-BD24-CFD34C3F01AE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
