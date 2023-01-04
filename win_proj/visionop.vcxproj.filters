@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\autocast\deform_conv2d_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\autocast\nms_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\autocast\ps_roi_align_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\autocast\ps_roi_pool_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\autocast\roi_align_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\ops\autocast\roi_pool_kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\10641617\workspace\torchvision_ops\vision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -28,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\ops\cuda\cuda_helpers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\10641617\workspace\torchvision_ops\vision.h">
@@ -59,6 +80,29 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <CudaCompile Include="..\ops\cuda\deform_conv2d_kernel.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\ops\cuda\interpolate_aa_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\ops\cuda\nms_kernel.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\ops\cuda\ps_roi_align_kernel.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\ops\cuda\ps_roi_pool_kernel.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\ops\cuda\roi_align_kernel.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="..\ops\cuda\roi_pool_kernel.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
     <CustomBuild Include="C:\Users\10641617\workspace\torchvision_ops\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -69,10 +113,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{D837F55E-BF30-3383-8B77-B64164325EAB}</UniqueIdentifier>
+      <UniqueIdentifier>{FF504EDD-3D14-359A-A091-A1925E1BCB98}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{37D37120-5525-3441-BD24-CFD34C3F01AE}</UniqueIdentifier>
+      <UniqueIdentifier>{EA1625AE-D27D-396D-9BAF-B74BB4FBBF9D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

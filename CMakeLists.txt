@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.12)
 set(CMAKE_PREFIX_PATH /home/wj/ai/software/libtorch)
+
+add_definitions(-Dtorchvision_EXPORTS)
+
 project(visionop)
 set(CMAKE_CXX_STANDARD 14)
 file(STRINGS version.txt TORCHVISION_VERSION)
